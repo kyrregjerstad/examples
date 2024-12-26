@@ -1,3 +1,5 @@
+
+import {describe, beforeAll, expect, it} from 'vitest'
 import { TestBed } from '@suites/unit';
 import type { Mocked } from '@suites/unit';
 import { UserService } from './user.service';

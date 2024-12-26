@@ -5,9 +5,10 @@
     "noEmit": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "rootDir": "src",
   },
   "include": [
-    "./global.d.ts"
+    "./global.d.ts", "src/**/*.spec.ts"
   ]
 }
